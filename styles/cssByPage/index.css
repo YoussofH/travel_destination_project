@@ -48,17 +48,25 @@ main {
 
 footer {
     background-color: #333;
-    height: 100px;
     color: #fff;
-    margin-top: 120px;
+    margin-top: 50px;
 
     padding-left: 7vw;
     padding-right: 7vw;
-    
+
+    padding-top:50px;
+    padding-bottom:50px;
+
     bottom: 0;
     left: 0;
     position: relative;
-    width:100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+
+    height: 200px;
 }
 
 
@@ -99,10 +107,42 @@ footer {
 .parent {
     display: flex;
     flex-wrap: wrap;
+    height: fit-content;
 }
 
 .child {
     flex: 1 0 21%;
     margin: 5px;
     height: 100px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.footer-headline {
+    font-weight: bold;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.places-show{
+    height: 259px;
+}
+
+.ico-insta{
+    font-size:40px;
+    color:red;
+    margin-right: 5px;
+}
+.ico-face{
+    font-size:40px;
+    color:rgb(86, 86, 222);
+    margin-right: 5px;
+}
+.ico-yb{
+    font-size:40px;
+    color:rgba(255, 0, 0, 0.668);
 }
