@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* stick it down bottom, with respect to view port height*/
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+nav ul {
+    list-style-type: none; /*remove bullets */
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /*fills remaining vertical space in between up header, and the footer*/
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+
+    padding-top: 10px;
+
+    padding-left: 7vw;
+    padding-right: 7vw;
+    margin-top: auto; /* we push the footer to the bottom */
+}
