@@ -1,0 +1,32 @@
+.primary-color {
+    color: #2185D5;
+}
+
+.secondary-color {
+    color: #3A4750;
+}
+
+.success-color {
+    color: #28a745;
+}
+
+.danger-color {
+    color: #dc3545;
+}
+
+.warning-color {
+    color: #ffc107;
+}
+
+.info-color {
+    color: #17a2b8;
+}
+
+/* Additional colors */
+.dark-color {
+    color: #343a40;
+}
+
+.light-color {
+    color: #f8f9fa;
+}
