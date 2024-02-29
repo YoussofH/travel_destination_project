@@ -11,6 +11,7 @@ header {
 
     padding-left: 7vw;
     padding-right: 7vw;
+    margin-bottom: 40px;
 }
 
 nav {
@@ -111,7 +112,6 @@ footer {
 }
 
 .child {
-    flex: 1 0 21%;
     margin: 5px;
     height: 100px;
 }
@@ -150,4 +150,29 @@ footer {
 .place-name{
     font-size: x-large;
     padding:5px;
+}
+
+.right-panel{
+    flex:1;
+    height: 55vh;
+    padding-left: 70px;
+}
+
+.left-panel{
+    height: 55vh;
+    text-align: center;
+    margin-left: 200px;
+}
+.left-panel>.upload{
+    color: blue;
+    font-size: large;
+}
+hr{
+    padding: 0 20px;
+}
+
+.prof-pic{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
 }
