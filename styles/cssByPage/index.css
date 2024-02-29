@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* stick it down bottom, with respect to view port height*/
 }
 
 header {
@@ -49,14 +48,17 @@ main {
 
 footer {
     background-color: #333;
+    height: 100px;
     color: #fff;
-
-    padding-top: 10px;
+    margin-top: 120px;
 
     padding-left: 7vw;
     padding-right: 7vw;
-    margin-top: auto;
-    /* we push the footer to the bottom */
+    
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width:100%;
 }
 
 
@@ -74,7 +76,7 @@ footer {
     margin-right: 10px;
 }
 
-.hero-section{
+.hero-section {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -82,14 +84,25 @@ footer {
     align-items: center;
     background-image: url("../../assets/img_hero.png");
     height: 500px;
-    width:100%;
+    width: 100%;
     color: #fff;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.hero-section p{
+.hero-section p {
     font-size: 25px;
     max-width: 65%;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 100px;
 }
