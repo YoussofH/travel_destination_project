@@ -27,3 +27,4 @@ This is a simple travel destination guide website created for an assignment. It 
 ## Usage
 
 To view the website, simply open the HTML files in a web browser. Click on links within the pages to navigate between different sections.
+![Preview](https://github.com/YoussofH/travel_destination_project/blob/main/Readme.png)
