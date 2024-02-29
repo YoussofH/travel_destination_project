@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* stick it down bottom, with respect to view port height*/
+    min-height: 100vh;
+    /* stick it down bottom, with respect to view port height*/
 }
 
 header {
@@ -14,8 +15,16 @@ header {
     padding-right: 7vw;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav ul {
-    list-style-type: none; /*remove bullets */
+    list-style-type: none;
+    /*remove bullets */
     display: flex;
 }
 
@@ -23,18 +32,16 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav ul li:last-child {
-    margin-right: 0;
-}
-
-nav ul li a {
+nav ul li a,
+nav>a {
     color: #fff;
     text-decoration: none;
 }
 
 main {
-    flex: 1; /*fills remaining vertical space in between up header, and the footer*/
-    
+    flex: 1;
+    /*fills remaining vertical space in between up header, and the footer*/
+
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -50,5 +57,14 @@ footer {
 
     padding-left: 7vw;
     padding-right: 7vw;
-    margin-top: auto; /* we push the footer to the bottom */
+    margin-top: auto;
+    /* we push the footer to the bottom */
+}
+
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
